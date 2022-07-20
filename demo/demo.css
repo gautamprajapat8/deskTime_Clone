@@ -1,0 +1,128 @@
+
+/* this is for universal  */
+*{
+    width: 90%;
+    margin: auto;
+}
+
+/*? start for first part of css */
+#first{
+    display: flex;
+    margin:auto;
+    /* margin:50px 50px; */
+    justify-content: center;
+    align-items: center;
+    border :1px solid red;
+    padding: 90px;
+    gap: 40px;
+    /* height:auto; */
+}
+b{
+    text-transform: uppercase;
+    
+}
+
+.detail>p{
+  margin-top: 10px;
+}
+.btn{
+    width: 91%;
+    /* border: 1px solid green ; */
+    display: flex;
+    gap:20px;
+    margin-top:10px ;
+    
+}
+.btn>button:nth-child(1)
+{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius:8px;
+    background-color: #4ea819;
+    margin-top: 10px;
+    
+}
+.btn>button:nth-child(2)
+{
+    padding: 20px;
+    border: 1px solid rgb(8, 7, 7);
+    border-radius:8px;
+    width: 50%;
+    border-color: #fafafa;
+    margin-top: 10px;
+
+}
+/* p{
+   
+} */
+.pic-1{
+    /* border: 1px solid red; */
+    /* height: ; */
+}
+
+
+/*! end  first part css */
+
+
+/*? start second part of css  */
+
+#second{
+   display: flex; 
+  
+}
+
+#second>div>img{
+    border: 1px solid red;
+}
+
+/*! end second part of css  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*? start second part of css  */
+/*todo start second part of css  */
+/*// start second part of css  */
+/** start second part of css  */
+/*! start second part of css  */
