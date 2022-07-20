@@ -1,2 +1,4 @@
-import navbar from "../components/navbarExp.js";
+import {navbar, footer }from "../components/navbarAndFooterExp.js";
 document.querySelector("#navbar").innerHTML = navbar();
+
+document.querySelector("#footer").innerHTML = footer();

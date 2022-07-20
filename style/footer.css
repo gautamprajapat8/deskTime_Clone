@@ -1,0 +1,139 @@
+#footer
+{
+    width: 100%;
+    height: 600px;
+}
+#footFirst
+{
+    width: 85%;
+    margin: auto;
+    height: 60%;
+    margin-top: 4%;
+}
+#footFirst
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+}
+
+#footFirst>div >a
+{
+    font-size:14px;
+    line-height: 27px;
+    display: block;
+    text-decoration: none;
+    color: #5D656B;
+    margin-top: 3%;
+}
+#footFirst>div>p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#footFirst>div >a:hover
+{
+    text-decoration: underline;
+}
+#footSecond
+{
+    margin-top: 5%;
+    border: 1px solid transparent;
+    height: 22%;
+    background-color: #EBECEC;
+}
+#footSecond>div
+{
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+#footSecond>div:first-child
+{
+    height: 25%;
+    
+}
+#footSecond>div:first-child>div
+{
+    display: flex;
+    justify-content: flex-end;
+}
+#footSecond>div:first-child>div>a
+{
+    margin-right: 10px;
+}
+#footSecond>div:last-child
+{
+    height: 35%;
+    display: grid;
+    grid-template-columns: 20% 79%;
+    gap: 1%;
+}
+#footSecond>div:last-child>div
+{
+    height: 100%;
+}
+
+#footSocialMedia
+{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    align-items: center;
+    gap: 5px;
+}
+#footSocialMedia>a>img
+{
+    width: 100%;
+}
+#footSarch
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    color: #5D656B;
+}
+#footSarch>input[type="email"]
+{
+    height: 60%;
+    width: 30%;
+    font-size: 16px;
+}
+#footSarch>input[type="submit"]
+{
+    height: 70%;
+    width: 12%;
+    background-color: #4EA819;
+    border-radius: 3px;
+    border: 1px solid #5D656B;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#footThird
+{
+    background-color: #D6D8D9;
+    height: 8%;
+    width: 100%;
+}
+#footThird>div
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding-top: 1%;
+    justify-content: space-between;
+}
+#footThird>div>p
+{
+    font-size: 11px;
+}
+#footThird>div>a
+{
+    text-decoration: none;
+    font-size: 11px;
+    display: flex;
+    color: #6b6c6d;
+}

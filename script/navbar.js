@@ -75,9 +75,6 @@ function languages(x)
 
 
 
-
-
-
 document.querySelector("#demo").addEventListener("click", ()=>{
     border("demo")
 });
@@ -96,7 +93,7 @@ document.querySelector("#faq").addEventListener("click", ()=>{
 document.querySelector("#blog").addEventListener("click", ()=>{
     border("blog")
 });
-async function border(x)
+function border(x)
 {
     document.getElementById("x").style.borderBottom="3px solid #4EA819"
 }
