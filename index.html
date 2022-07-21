@@ -17,7 +17,11 @@
 
     <div id="footer"></div>
 </body>
-<script src="./script/navbar.js" type="module"></script>
+<!-- <script src="./script/footer.js"></script> -->
+<script src="./script/navbar.js"></script>
 <script src="./script/index.js" type="module"></script>
-<script src="./script/footer.js" type="module"></script>
+<script type="module">
+    import {Subscribe} from "./script/footer.js"
+    document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
+</script>
 </html>

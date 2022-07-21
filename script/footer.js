@@ -1,4 +1,4 @@
-document.querySelector("#subscribe").addEventListener("click", Subscribe);
+// document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
 function Subscribe()
 {
     if(document.querySelector("#SubscribeEmail").value !="")
@@ -8,3 +8,5 @@ function Subscribe()
     }
     
 }
+
+export {Subscribe};

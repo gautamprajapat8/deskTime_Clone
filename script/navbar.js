@@ -75,25 +75,25 @@ function languages(x)
 
 
 
-document.querySelector("#demo").addEventListener("click", ()=>{
-    border("demo")
-});
-document.querySelector("#features").addEventListener("click", ()=>{
-    border("features")
-});
-document.querySelector("#pricing").addEventListener("click", ()=>{
-    border("pricing")
-});
-document.querySelector("#about_us").addEventListener("click", ()=>{
-    border("about_us")
-});
-document.querySelector("#faq").addEventListener("click", ()=>{
-    border("faq")
-});
-document.querySelector("#blog").addEventListener("click", ()=>{
-    border("blog")
-});
-function border(x)
-{
-    document.getElementById("x").style.borderBottom="3px solid #4EA819"
-}
+// document.querySelector("#demo").addEventListener("click", ()=>{
+//     border("demo")
+// });
+// document.querySelector("#features").addEventListener("click", ()=>{
+//     border("features")
+// });
+// document.querySelector("#pricing").addEventListener("click", ()=>{
+//     border("pricing")
+// });
+// document.querySelector("#about_us").addEventListener("click", ()=>{
+//     border("about_us")
+// });
+// document.querySelector("#faq").addEventListener("click", ()=>{
+//     border("faq")
+// });
+// document.querySelector("#blog").addEventListener("click", ()=>{
+//     border("blog")
+// });
+// function border(x)
+// {
+//     document.getElementById("x").style.borderBottom="3px solid #4EA819"
+// }
