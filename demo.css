@@ -132,6 +132,13 @@ b{
     border:1px solid gray;
 }
 
+#middle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
 
 /*! end second part of css  */
 
