@@ -7,10 +7,12 @@
     <title>Demo Page</title>
     <link rel="shortcut icon" type="x-icon" href="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9e85a16a-c862-4238-9ca5-f5dfa2df8a84.png?auto=format&ixlib=react-9.0.3">
     <link rel="stylesheet" href="./demo.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
     <!-- import navbar here  -->
-
+    <div id="navbar"></div>
 
     <!-- page body -->
     <!-- this div  is for control hole element of demo page  -->
@@ -36,7 +38,7 @@
         </div>
     </div>
     <!-- this is for main div where my secon part all element store inside  -->
-    <div id="second">
+    <div id="second-1">
         <!-- div-1 -->
             <div>
              <img src="https://desktime.com/assets/img/demo/demo-account.svg?v2" alt="">
@@ -56,7 +58,7 @@
             <div>
                 <img src="https://desktime.com/assets/img/demo/webinars.svg?v2" alt="">
                 <h2>Webinars</h2>
-                <p>Watch on-demand webinars and tutorials to make sure and there on you are get the most  out of all the features DeskTime has to offer.</p>
+                <p>Watch on-demand webinars and tutorials to make sure and there will be's in you are get the most  out of all the features DeskTime has to offer.</p>
                 <button>WATCH NOW</button>
             </div>
             <!-- div-4 -->
@@ -74,12 +76,17 @@
         <!-- div on if detaile -->
         <div class="one">
             <h1>DeskTime for Teams</h1>
-            <p>Watch this tutorial to learn how to keep track of your employees' work with the Admin features of DeskTime, find out how to add team members, manage work schedules, create invoices and reports, and more.
+            <p class="same-1">Watch this tutorial to learn how to keep track of your employees' work with the Admin features of DeskTime, find out how to add team members, manage work schedules, create invoices and reports, and more.</p>
     
-            With DeskTime you can plan and create shifts, manage absences and use the Project tracking feature to see who is working on what and for how long.</p>
-            <p><img src="https://desktime.com/assets/img/icons/bullet-point-check.svg"></img> Keep track of processes and goals.</p>
-            <p><img src="https://desktime.com/assets/img/icons/bullet-point-check.svg"></img> Set Automatic time & project tracking.</p>
-            <p><img src="https://desktime.com/assets/img/icons/bullet-point-check.svg"></img> Grasp shift and absence scheduling.</p>
+            <p class="same-1"> DeskTime you can plan and create shifts, manage absences and use the Project tracking feature to see who is working on what and for how long.</p>
+            <p class="same-2"><img src="https://desktime.com/assets/img/icons/bullet-point-check.svg"></img> Keep track of processes and goals.</p>
+            <p class="same-2"><img src="https://desktime.com/assets/img/icons/bullet-point-check.svg"></img> Set Automatic time & project tracking.</p>
+            <p class="same-2"><img src="https://desktime.com/assets/img/icons/bullet-point-check.svg"></img> Grasp shift and absence scheduling.</p>
+            <!-- div btn-2 -->
+            <div class="btn-08">
+            <button>START A FREE TRAIL</button>
+            <button>BOOK DEMO</button>
+        </div>
         </div>
        <!-- div 2 for youtube video  -->
        <div class="video">
@@ -87,8 +94,19 @@
        </div>
     </div>
 
+    
 
 
-</div>
+
+
+</div> 
+<div id="footer"></div>
+
 </body>
+<script src="./demo.js" type="module"></script>
+<script src="./script/navbar.js"></script>
+<script type="module">
+    import {Subscribe} from "./script/footer.js"
+    document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
+</script>
 </html>

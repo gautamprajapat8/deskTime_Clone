@@ -115,7 +115,7 @@ let footer=()=>{
                 <div id="footSarch">
                     <label for="">Subscrib to our newsletter</label>
                     <input type="email" placeholder="Type your email" id="SubscribeEmail">
-                    <input type="submit" value="Subscribe" id="subscribe">
+                    <input type="submit" value="Subscribe" id="subscribeBtn">
                 </div>
             </div>
         </div>

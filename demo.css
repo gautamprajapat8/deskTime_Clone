@@ -85,22 +85,22 @@ b{
 
 /*? start second part of css  */
 
-#second{
+#second-1{
    display: flex; 
    /* border: 1px solid black ; */
    padding:50px;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#second>div{
+#second-1>div{
     /* border: 1px solid brown; */
     padding: 3%;
 }
-#second>div>h2{
+#second-1>div>h2{
     text-align: center;
     margin-top: 8px;
     line-height: 1.75em;
 }
-#second>div>p{
+#second-1>div>p{
     text-align:center;
     line-height: 1.75em;
     font-size: 110%;
@@ -108,7 +108,7 @@ b{
     margin-bottom:20px ;
 }
 
-#second>div>img{
+#second-1>div>img{
     /* border: 1px solid red; */
     display: block;
     margin: auto;
@@ -117,7 +117,7 @@ b{
     width: 70%;
 }
 
-#second>div>button{
+#second-1>div>button{
     /* color: red; */
     display: block;
     justify-content: center;
@@ -132,22 +132,85 @@ b{
     border:1px solid gray;
 }
 
+/*! end second part of css  */
+
+/*? start middle part of css */
 #middle{
     display:flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    
+    /* border: 1px solid brown; */
+}
+.one{
+    /* border: 1px solid rgb(42, 11, 146); */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.one>h1
+{
+    font-size: 300%;
+    margin: 20px 20px;
+}
+.same-1{
+    margin:20px 20px ;
+    text-align: justify;
+}
+.same-2{
+    margin-right: 23%;
+    width: 70%;
+}
+.btn-08{
+    /* border: 1px solid rgb(152, 5, 150); */
+    margin-right:11% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.btn-08>button{
+    margin: 20px  ;
+    /* border: 1px solid yellow; */
+    font-size:90% ;
+    font-weight: bolder;
 }
 
-/*! end second part of css  */
+.btn-08>button:nth-child(1)
+{
+    background-color: 
+    #4ea819;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 5px;
+    padding:20px;
+}
+.btn-08>button:nth-child(2)
+{
+    background-color: 
+    white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding:29px;
+    width: 40%;
+    border: 1px solid gray;
+}
+
+.video{
+    padding: 16% 3%;
+
+}
 
 
 
 
 
-
-
+/*! end of middle part */
 
 
 
