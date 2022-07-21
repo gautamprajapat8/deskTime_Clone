@@ -1,25 +1,42 @@
 
 /* this is for universal  */
-*{
-    width: 90%;
-    margin: auto;
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana,Geneva,Tahoma,sans-serif;
 }
 
 /*? start for first part of css */
 #first{
     display: flex;
     margin:auto;
-    /* margin:50px 50px; */
     justify-content: center;
     align-items: center;
-    border :1px solid red;
-    padding: 90px;
-    gap: 40px;
-    /* height:auto; */
+    /* border :1px solid red; */
+    gap: 70px;
+    /* width: 68%; */
+    padding: 9%;
 }
 b{
     text-transform: uppercase;
     
+}
+
+.detail>h2{
+    /* color: red; */
+    font-size: 280%;
+}
+
+.detail>p{
+    font-size: 134%;
+
+}
+
+.btn>button
+{
+    font-size:150% ;
+    font-weight: bolder;
 }
 
 .detail>p{
@@ -41,6 +58,7 @@ b{
     border-radius:8px;
     background-color: #4ea819;
     margin-top: 10px;
+    color: white;
     
 }
 .btn>button:nth-child(2)
@@ -56,10 +74,10 @@ b{
 /* p{
    
 } */
-.pic-1{
+/* .pic-1{ */
     /* border: 1px solid red; */
     /* height: ; */
-}
+/* } */
 
 
 /*! end  first part css */
@@ -69,12 +87,51 @@ b{
 
 #second{
    display: flex; 
-  
+   /* border: 1px solid black ; */
+   padding:50px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#second>div{
+    /* border: 1px solid brown; */
+    padding: 3%;
+}
+#second>div>h2{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1.75em;
+}
+#second>div>p{
+    text-align:center;
+    line-height: 1.75em;
+    font-size: 110%;
+    font-weight:520;
+    margin-bottom:20px ;
 }
 
 #second>div>img{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    width: 70%;
 }
+
+#second>div>button{
+    /* color: red; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:1rem;
+    font-size: .875rem;
+    min-height: 2.5rem;
+    border-radius: 6px;
+    /* background-color: #ffffff#fff; */
+    background-color: white;
+    border:1px solid gray;
+}
+
 
 /*! end second part of css  */
 
