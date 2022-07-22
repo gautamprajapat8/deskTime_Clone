@@ -7,6 +7,9 @@
     border-top: 4px solid #4EA819;
     justify-content: space-around;
     align-items: center;
+    position:fixed;
+    background: rgb(255, 254, 254);
+    top: 0px;
 }
 /* #nav>div
 {

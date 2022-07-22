@@ -123,10 +123,7 @@ let footer=()=>{
             <div>
                 <p>© 2011 - 2022 DeskTime</p>
                 <a href="https://draugiemgroup.com/">
-                    <div>
-                        <p>PART OF</p>
-                        <h4>DRAUGIEM GROUP</h4>
-                    </div>
+                <img src="https://desktime.com/assets/new-styles/dist/assets/dg-logo-group.svg" alt="">
                 </a>
             </div>
         </div>
