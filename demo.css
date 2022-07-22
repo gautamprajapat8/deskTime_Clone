@@ -25,7 +25,7 @@ b{
 
 .detail>h2{
     /* color: red; */
-    font-size: 280%;
+    font-size: 240%;
 }
 
 .detail>p{
@@ -35,7 +35,7 @@ b{
 
 .btn>button
 {
-    font-size:150% ;
+    font-size:120% ;
     font-weight: bolder;
 }
 
@@ -140,6 +140,7 @@ b{
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding:10%;
     /* border: 1px solid brown; */
 }
 .one{
@@ -154,6 +155,7 @@ b{
 }
 .one>h1
 {
+    text-align: left;
     font-size: 300%;
     margin: 20px 20px;
 }
@@ -177,7 +179,7 @@ b{
 .btn-08>button{
     margin: 20px  ;
     /* border: 1px solid yellow; */
-    font-size:90% ;
+    font-size:120% ;
     font-weight: bolder;
 }
 
@@ -189,6 +191,7 @@ b{
     width: 50%;
     border-radius: 5px;
     padding:20px;
+    color: white;
 }
 .btn-08>button:nth-child(2)
 {
@@ -206,30 +209,137 @@ b{
 
 }
 
-
-
-
-
 /*! end of middle part */
 
+/*? start for the second  middle part  */
+
+#middle-page{
+    display: flex;
+    padding: 10%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.video-2
+{
+    margin: 3%;
+}
+
+.middle-2{
+    /* border: 1px solid green; */
+
+}
+.middle-2>h1{
+    font-weight: bolder;
+    font-size: 320%;
+    line-height:90px;
+
+}
+.middle-2>p{
+    line-height: 34px;
+}
+.sec-p>p{
+    line-height: 29px;
+    text-align: justify;
+}
+
+.btn-mid{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    gap: 20px;
+}
+
+.btn-mid>button{
+    padding:3%;
+    border-radius: 5px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.btn-mid>button:nth-child(1)
+{
+    background-color: #4ea819;
+    border:1px solid gray;
+    color: white;
+}
+.btn-mid>button:nth-child(2)
+{
+    background-color: white;
+    border:1px solid gray;
+}
+
+
+/*! end of second middle part */
+
+/*? start freelancer part  */
+
+#free-1{
+    display: flex;
+    padding:10%;
+    /* border: 1px solid red; */
+}
+
+.deat-1{
+    /* border: 1px solid green; */
+    padding: 50px;
+    width: 80%;
+}
+
+.deat-1>h1{
+    font-size: 320%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.deat-1>p{
+    line-height: 34px;
+}
+
+.third-p{
+    line-height: 29px;
+
+}
+
+.btn-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn-3>button{
+    padding:3%;
+    border-radius: 5px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.btn-3>button:nth-child(1)
+{
+    border: 1px solid grey;
+    background-color: #4ea819;
+    color: white;
+}
+.btn-3>button:nth-child(2)
+{
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.video-3{
+    /* border: 1px solid grey; */
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*!  end freelancer part */
 
 
 
