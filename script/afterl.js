@@ -4,6 +4,7 @@ document.querySelector("#navbar").innerHTML = navbar();
 document.querySelector("#footer").innerHTML = footer();
 
 
+
 let name=localStorage.getItem("name");
 document.querySelector("#showName").innerHTML=`Hello ${name}`;
 
