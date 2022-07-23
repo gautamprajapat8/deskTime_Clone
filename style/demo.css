@@ -1,0 +1,401 @@
+
+/* this is for universal  */
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana,Geneva,Tahoma,sans-serif;
+}
+
+/* start for first part of css */
+#first{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    /* border :1px solid red; */
+    gap: 70px;
+    /* width: 68%; */
+    padding: 9%;
+}
+b{
+    text-transform: uppercase;
+    
+}
+
+.detail>h2{
+    /* color: red; */
+    font-size: 240%;
+}
+
+.detail>p{
+    font-size: 134%;
+
+}
+
+.btn>button
+{
+    font-size:120% ;
+    font-weight: bolder;
+}
+
+.detail>p{
+  margin-top: 10px;
+}
+.btn{
+    width: 91%;
+    /* border: 1px solid green ; */
+    display: flex;
+    gap:20px;
+    margin-top:10px ;
+    
+}
+.btn>button:nth-child(1)
+{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius:8px;
+    background-color: #4ea819;
+    margin-top: 10px;
+    color: white;
+    
+}
+.btn>button:nth-child(2)
+{
+    padding: 20px;
+    border: 1px solid rgb(8, 7, 7);
+    border-radius:8px;
+    width: 60%;
+    border-color: #fafafa;
+    margin-top: 10px;
+
+}
+/* p{
+   
+} */
+/* .pic-1{ */
+    /* border: 1px solid red; */
+    /* height: ; */
+/* } */
+
+
+/* end  first part css */
+
+
+/* start second part of css  */
+
+#second-1{
+   display: flex; 
+   /* border: 1px solid black ; */
+   padding:50px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#second-1>div{
+    /* border: 1px solid brown; */
+    padding: 3%;
+}
+#second-1>div>h2{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1.75em;
+}
+#second-1>div>p{
+    text-align:center;
+    line-height: 1.75em;
+    font-size: 110%;
+    font-weight:520;
+    margin-bottom:20px ;
+}
+
+#second-1>div>img{
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    width: 70%;
+}
+
+#second-1>div>button{
+    /* color: red; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:1rem;
+    font-size: .875rem;
+    min-height: 2.5rem;
+    border-radius: 6px;
+    /* background-color: #ffffff#fff; */
+    background-color: white;
+    border:1px solid gray;
+}
+
+/* end second part of css  */
+
+/* start middle part of css */
+#middle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding:10%;
+    /* border: 1px solid brown; */
+}
+.one{
+    /* border: 1px solid rgb(42, 11, 146); */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.one>h1
+{
+    text-align: left;
+    font-size: 300%;
+    margin: 20px 20px;
+}
+.same-1{
+    margin:20px 20px ;
+    text-align: justify;
+}
+.same-2{
+    margin-right: 23%;
+    width: 70%;
+}
+.btn-08{
+    /* border: 1px solid rgb(152, 5, 150); */
+    margin-right:11% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.btn-08>button{
+    margin: 20px  ;
+    /* border: 1px solid yellow; */
+    font-size:120% ;
+    font-weight: bolder;
+}
+
+.btn-08>button:nth-child(1)
+{
+    background-color: 
+    #4ea819;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 5px;
+    padding:20px;
+    color: white;
+}
+.btn-08>button:nth-child(2)
+{
+    background-color: 
+    white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding:29px;
+    width: 40%;
+    border: 1px solid gray;
+}
+
+.video{
+    padding: 16% 3%;
+
+}
+
+/* end of middle part */
+
+/* start for the second  middle part  */
+
+#middle-page{
+    display: flex;
+    padding: 10%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.video-2
+{
+    margin: 3%;
+}
+
+/* .middle-2{ */
+    /* border: 1px solid green; */
+
+/* } */
+.middle-2>h1{
+    font-weight: bolder;
+    font-size: 320%;
+    line-height:90px;
+
+}
+.middle-2>p{
+    line-height: 34px;
+}
+.sec-p>p{
+    line-height: 29px;
+    text-align: justify;
+}
+
+.btn-mid{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    gap: 20px;
+}
+
+.btn-mid>button{
+    padding:3%;
+    border-radius: 5px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.btn-mid>button:nth-child(1)
+{
+    background-color: #4ea819;
+    border:1px solid gray;
+    color: white;
+}
+.btn-mid>button:nth-child(2)
+{
+    background-color: white;
+    border:1px solid gray;
+}
+
+
+/* end of second middle part */
+
+/* start freelancer part  */
+
+#free-1{
+    display: flex;
+    padding:10%;
+    /* border: 1px solid red; */
+}
+
+.deat-1{
+    /* border: 1px solid green; */
+    padding: 50px;
+    width: 80%;
+}
+
+.deat-1>h1{
+    font-size: 320%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.deat-1>p{
+    line-height: 34px;
+}
+
+.third-p{
+    line-height: 29px;
+
+}
+
+.btn-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn-3>button{
+    padding:3%;
+    border-radius: 5px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.btn-3>button:nth-child(1)
+{
+    border: 1px solid grey;
+    background-color: #4ea819;
+    color: white;
+}
+.btn-3>button:nth-child(2)
+{
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.video-3{
+    /* border: 1px solid grey; */
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*  end freelancer part */
+
+/* start middle nav part */
+#middle-nav{
+    background-color: #4ea819;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+}
+
+/*  end middle nav part */
+
+
+/* start demo account  part */
+
+#demo-acct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    /* border: 1px solid rgb(32, 85, 61); */
+    padding: 10%;
+}
+
+#demo-acct>div:nth-child(2)
+{
+
+    height: 500px;
+    width:45%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-2>h1
+{
+   font-size: 230%;
+   margin-bottom: 20px;
+   text-align:justify;
+  
+}
+.info-2>p{
+    text-align: center;
+}
+.info-2>button{
+    padding: 20px;
+    background-color: #4ea819;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 120%;
+    font-weight: bolder;
+   margin-right: 57%;
+}
