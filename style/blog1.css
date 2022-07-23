@@ -10,8 +10,12 @@ body {
   }
   
   
+<<<<<<< HEAD
   .immediate_below
   {
+=======
+  .immediate_below {
+>>>>>>> 0b5258dd2e016f22293b94bbd5bd5f609386bd1b
     margin-top: -0.5em !important;
   }
   

@@ -69,5 +69,8 @@ function languages(x)
         document.querySelector(".espanol").innerText="✅";
         document.querySelector("#language").innerText="ES";
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 0b5258dd2e016f22293b94bbd5bd5f609386bd1b
 }

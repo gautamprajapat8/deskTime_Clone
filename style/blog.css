@@ -14,6 +14,10 @@ body {
   }
   
   .pointer3:hover {
+<<<<<<< HEAD
+=======
+    /* color: green !important; */
+>>>>>>> 0b5258dd2e016f22293b94bbd5bd5f609386bd1b
     cursor: pointer;
     text-decoration: underline;
   }

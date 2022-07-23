@@ -5,8 +5,12 @@ document.querySelector("#footer").innerHTML = footer();
 
 document.querySelector("#div11").addEventListener("click", signup)
 
+<<<<<<< HEAD
 function signup()
 {
+=======
+function signup(){
+>>>>>>> 0b5258dd2e016f22293b94bbd5bd5f609386bd1b
   window.location.href="sign_up.html"
 }
 

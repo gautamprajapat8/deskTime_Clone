@@ -8,8 +8,12 @@ body {
     text-align: left;
     background-color: #fff;
   }
+<<<<<<< HEAD
   .MenuBarToggle
   {
+=======
+  .MenuBarToggle {
+>>>>>>> 0b5258dd2e016f22293b94bbd5bd5f609386bd1b
     transform: translate(10%);
     position: absolute;
   
