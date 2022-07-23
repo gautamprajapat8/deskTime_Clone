@@ -90,7 +90,6 @@
     font-size: 30px;
     color: gray;
   }
-<<<<<<< HEAD
   #ForgetpassFont
   {
     font-size: 15px;
@@ -98,13 +97,6 @@
   }
   #loginFont
   {
-=======
-  #ForgetpassFont {
-    font-size: 15px;
-    color: gray;
-  }
-  #loginFont {
->>>>>>> 0b5258dd2e016f22293b94bbd5bd5f609386bd1b
     font-size: 15px;
     color: gray;
     margin-left: unset;
