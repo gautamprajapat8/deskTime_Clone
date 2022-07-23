@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/navbar.css">
 </head>
 <body>
-    <!-- meain div -->
+    <!-- navbar -->
+    <div id="navbar"></div>
+
+
+    <!-- main div -->
     <div id="main-page-1">
         <!-- this is head page -->
       <div class="head-1p">
@@ -129,7 +135,18 @@
       <!-- end third part -->
 
 
+      <!-- footer -->
 
     </div>
+      
+      
+    <div id="footer"></div>
 </body>
 </html>
+<script src="./script/navbar.js"></script>
+<script src="features.js"></script>
+
+<script type="module">
+    import {Subscribe} from "./script/footer.js"
+    document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
+</script>
