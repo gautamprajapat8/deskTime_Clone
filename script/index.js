@@ -12,3 +12,13 @@ function startFreeTri()
         alert("Your Free Trial has start!");
     }
 }
+
+document.querySelector("#Ipart9Submit").addEventListener("click", freeTrial);
+function freeTrial()
+{
+    if (document.querySelector("#Ipart9Email").value != "")
+    {
+        document.querySelector("#Ipart9Email").value="";
+        alert("Your Free Trial has start!");
+    }
+}
