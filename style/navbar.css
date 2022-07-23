@@ -10,12 +10,8 @@
     position:fixed;
     background: rgb(255, 254, 254);
     top: 0px;
+    z-index: 10;
 }
-/* #nav>div
-{
-    border: 1px solid green;
-
-} */
 #nav>div
 {
     width: 12.3%;
@@ -49,7 +45,6 @@
     text-decoration: none;
     color: #5D656B;
     font-size:large;
-    /* font-weight: */
 
 }
 #second>div:nth-child(2)
@@ -96,26 +91,21 @@
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
-    /* border: 1px solid red; */
 }
 #last>img:first-child
 {
     width: 20%;
     height: 20px;
-    /* border: 1px solid red; */
     margin-right: -10%;
 }
 #last>img:last-child
 {
     width: 15%;
     height: 15px;
-  
-    /* border: 1px solid red; */
 }
 #last>p
 {
     color: #5D656B;
-    /* border: 1px solid red; */
 }
 #dropdownLanguage{
     z-index: 10;

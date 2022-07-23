@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Time Tracker App For Business & Freelancer | DeskTime</title>
+    <!-- add icon on title link -->
+    <link rel = "icon" href ="https://desktime.com/favicon/safari-pinned-tab.svg" type = "image/x-icon">
+
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/log_in.css">
+
+</head>
+<body">
+    <div id="navbar"></div>
+   
+    
+
+<div id = "LogInMain">
+        <div id = "LogInLogo">
+            <img src = "https://desktime.com/assets/img/logo/symbol.svg">
+            <h1 id = "loginH1font">Log into Your DeskTime</h1>
+        </div>
+
+        <div id = "LoginHere">
+            <h4 id = "loginFont">Login here</h4>
+            <input type = "email" placeholder="Your Eamil" id="email">
+            <input type = "password" placeholder="Your Password" id="password">
+            <button id = "button">Login</button>
+
+            <h4 id = "spanGreen" id = "ForgetpassFont" style="margin-left: unset;">Forget password?</h4>
+            <h4 id = "loginFont">Not yet registered?<span id = "spanGreen">Sign up</span></h4>
+        </div>
+
+        <div id = "ConnectWith">
+            <h3 id = "loginFont">Or connect with</h3>
+        <div>
+            <div href="#"></div>
+            <div href="#"></div>
+            <div href="#"></div>
+            <div href="#"></div>
+        </div>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+</body>
+<!-- <script src="./script/footer.js"></script> -->
+<script src="./script/navbar.js"></script>
+<script src="./script/log_in.js" type="module"></script>
+<script type="module">
+    import {Subscribe} from "./script/footer.js"
+    document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
+</script>
+</html>

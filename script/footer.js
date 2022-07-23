@@ -1,4 +1,3 @@
-// document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
 function Subscribe()
 {
     if(document.querySelector("#SubscribeEmail").value !="")
