@@ -99,4 +99,119 @@ a{
     text-align: center;
 }
 
+#third-part-3rd
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 190px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+#third-part-3rd>div{
+    padding:20px;
+}
+
+#third-part-3rd>div>h1{
+    font-size: 220%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#third-part-3rd>div>p{
+    text-align: justify;
+    font-size: 90%;
+    line-height: 20px;
+    margin-bottom:20px;
+}
+#third-part-3rd>div>button{
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: #4ea819;
+    border-radius: 5px;
+    font-size: 120%;
+    font-weight: bolder;
+    color: white;
+}
+.formula>h1{
+    background-color: 
+    #2693f8;
+    padding: 4%;
+    text-align: center;
+    color: white;
+}
+#fouth-part-4th
+{
+    display: flex;
+}
+#fouth-part-4th>div:nth-child(1)>img
+{
+width:400px;
+height:400px;
+ margin:160px;
+ margin-left:180px;
+}
+.manto-1{
+    width: 700px;
+    height: 400px;
+    /* margin: auto; */
+    margin-top:113px;
+    margin-right: 170px;
+}
+
+.manto-1>h1{
+    font-size: 320%;
+    margin-top: 80px;
+}
+.manto-1>p{
+    font-size:120%;
+    font-weight: bolder;
+    line-height: 36px;
+}
+.manto-1>button{
+    padding:10px;
+    margin-top: 20px;
+    background-color: #4ea819;
+    color: white;
+    font-size: 120%;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#dop-shop-1s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap:80px;
+    padding: 50px 150px;
+}
+#dop-shop-1s>div:nth-child(2)>img
+{
+    /* width: 400px; */
+    width: 500px;
+}
+.song-1sv
+{
+    width: 70%;
+    
+}
+.song-1sv>h1{
+    font-size: 290%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.song-1sv>p{
+    line-height: 37px;
+}
+.song-1sv>button{
+    padding:10px;
+    margin-top: 20px;
+    background-color: #4ea819;
+    color: white;
+    font-size: 120%;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
