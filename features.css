@@ -1,0 +1,102 @@
+/* code here  */
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Verdana,Geneva,Tahoma,sans-serif;
+}
+
+.head-1p{
+
+    background-image: url("  https://desktime.com/assets/img/index/header.svg" );
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   padding: 77.56px;
+   color: white;
+}
+
+.div-1s{
+    width: 67%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.div-1s>h1{
+   font-size: 220%;
+   margin-bottom: 20px;
+   font-weight: bolder;
+}
+.div-1s>p{
+    line-height: 30px;
+}
+
+.div-3s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 100px;
+    margin-bottom:20px ;
+}
+
+#email-0v{
+    padding:20px;
+    width:40%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.div-3s>button{
+    padding:9px;
+    background-color:#4ea819;
+    border:1px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 120%;
+    font-weight: bolder;
+    
+}
+.div-2s>p{
+    text-align: center;
+    line-height: 25px;
+}
+a{
+    color: #4ea819; 
+}
+
+#second-2p{
+
+    padding: 40px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+#second-2p>div{
+
+    padding:20px;
+   width: 80%;
+}
+
+.div-1sc>img{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.div-1sc>h1{
+    text-align: center;
+    font-size: 110%;
+    font-weight: bolder;
+    color: #4ea819;
+    margin-bottom: 20px;
+}
+.div-1sc>p{
+    text-align: center;
+}
+
+
