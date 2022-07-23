@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigh Up</title>
+    <!-- add icon on title link -->
+    <link rel = "icon" href ="https://desktime.com/favicon/safari-pinned-tab.svg" type = "image/x-icon">
+
+    <link rel="stylesheet" href="./style/footer.css">
+    
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/sign_up.css">
+
+</head>
+<body">
+    <div id="navbar"></div>
+   
+    
+
+    <div id = "SignUpMain">
+        <div id = "SignUpLogo">
+            <h1 id = "rushifont40">Register for DeskTime free trial</h1>
+            <h1 id = "rushifont20"  >Over 287k employees use DeskTime. Get your FREE trial in 1 minute</h1>
+        </div>
+    
+        <div id = "SignUPHere">
+            <h4 >Register here</h4>
+            <input type = "email" placeholder="Your Eamil" id="email">
+            <input type = "text" placeholder="Your Name" id="name" >
+            <input type = "password" placeholder="Your Password" id="password" >
+            <button id="button">Sign up for free</button>
+    
+            <h4 id = "rushifont15" >Try free for 14 days. No credit card required.</h4>
+            <h4 id = "rushifont13"  >By signing up, you agree to our<span id = "spanGreen">terms </span>and<span id = "spanGreen">privacy policy.</span></h4>
+        </div>
+    
+        <div id = "SignUpWith">
+            <h3  id = "rushifont15">Or connect with</h3>
+    
+    
+        <div>
+            <div href="#"></div>
+            <div href="#"></div>
+            <div href="#"></div>
+            <div href="#"></div>
+        </div>
+        </div>
+    
+        <h4 id = "lastLogin">Are you already registered? <span id ="spanGreen"><a href="log_in.html">Log in here</a></span></h4>
+    </div>
+
+
+    <div id="footer"></div>
+</body>
+<!-- <script src="./script/footer.js"></script> -->
+<script src="./script/navbar.js"></script>
+<script src="./script/sign_up.js" type="module"></script>
+<script type="module">
+    import {Subscribe} from "./script/footer.js"
+    document.querySelector("#subscribeBtn").addEventListener("click", Subscribe);
+</script>
+</html>

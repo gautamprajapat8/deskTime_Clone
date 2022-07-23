@@ -1,0 +1,142 @@
+
+  #SignUpMain {
+    width: 550px;
+    height: 1000px;
+    float: auto;
+    margin: auto;
+    color: gray;
+    padding-top: 100px;
+  }
+  
+  #SignUpLogo {
+    height: 105px;
+    
+    text-align: center;
+  }
+  
+  #SignUPHere {
+    width: 400px;
+    height: 450px;
+    border: 0px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.122),
+      0 6px 20px 0 rgba(0, 0, 0, 0.136);
+    text-align: center;
+    margin: auto;
+    border-radius: 2px;
+    padding-top: 1px;
+    color: gray;
+    margin-top: 20%;
+  }
+  #SignUPHere > input {
+    height: 45px;
+    width: 370px;
+    text-align: left;
+    margin: 6px;
+    padding-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.395);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.027),
+      0 6px 20px 0 rgba(0, 0, 0, 0.088);
+    border-radius: 4px;
+  }
+  #SignUPHere > button {
+    height: 45px;
+    width: 370px;
+    text-align: center;
+    margin: 10px;
+    background-color: #5fb92a;
+    color: white;
+    border: 1px solid #5fb92a;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  #spanGreen {
+    color: #5fb92a;
+    font-weight: bold;
+  }
+  #SignUpWith {
+    max-width: 400px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    float: auto;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.061),
+      0 6px 20px 0 rgba(0, 0, 0, 0.088);
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+  }
+  
+  #SignUpWith > div > div {
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+  
+    float: left;
+  
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #SignUpWith > div > div:nth-child(1) {
+    margin-left: 17px;
+    background-image: url(https://desktime.com/assets/img/icons/facebook_v2.svg);
+  }
+  #SignUpWith > div > div:nth-child(2) {
+    background-image: url(https://desktime.com/assets/img/icons/twitter_v2.svg);
+  }
+  #SignUpWith > div > div:nth-child(3) {
+    background-image: url(https://desktime.com/assets/img/icons/linkedin_v2.svg);
+  }
+  #SignUpWith > div > div:nth-child(4) {
+    background-image: url(https://desktime.com/assets/img/icons/google_v2.svg);
+  }
+  #lastLogin {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    #footer{
+      margin-top: unset;
+      border: solid red;
+    }
+  /* #rushiGrey {
+    color: silver; */
+  }
+  
+  #rushifont5 {
+    font-size: 5px;
+  }
+  #rushifont13 {
+    font-size: 13px;
+  }
+  #rushifont15 {
+    font-size: 15px;
+    margin-left: unset;
+  }
+  #rushifont20 {
+    font-size: 20px;
+  }
+  #rushifont25 {
+    font-size: 25px;
+  }
+  #rushifont30 {
+    font-size: 30px;
+  }
+  #rushifont40 {
+    font-size: 40px;
+  }
+  #rushifont50 {
+    font-size: 50px;
+  }
+  
+  #rushifont60 {
+    font-size: 60px;
+  }
+
+  button:hover
+  {
+    cursor: pointer;
+  }

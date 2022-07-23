@@ -3,6 +3,7 @@ document.querySelector("#navbar").innerHTML = navbar();
 
 document.querySelector("#footer").innerHTML = footer();
 
+
 document.querySelector("#startFreeTri").addEventListener("click", startFreeTri);
 function startFreeTri()
 {

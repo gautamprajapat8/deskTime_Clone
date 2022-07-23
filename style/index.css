@@ -11,7 +11,6 @@
     height: 520px;
     padding-top: 10%;
     background-size: 100% 640px;
-    /* border:  1px solid saddlebrown; */
 }
 
 #Ipart1>div
@@ -23,11 +22,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 60% 18%;
     gap: 22%;
-    /* border:  1px solid red; */
 }
 #Ipart101
 {
-    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -35,7 +32,6 @@
 {
     padding-left: 3%;
     padding-right: 3%;
-    /* background-color: blue; */
 
 }
 #Ipart101>div:first-child>h1
@@ -82,7 +78,6 @@
 }
 #Ipart102
 {
-    /* border: 1px solid rgb(32, 18, 161); */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 5%;
@@ -98,25 +93,17 @@
 #Ipart2
 {
     width: 100%;
-    /* border: 1px solid grey; */
     height: 610px;
     padding-top: 5%;
 }
 #Ipart2>div
 {
-    /* border:1px solid red; */
-    /* height: 80%; */
     width: 94%;
     margin: auto;
     display: grid;
     grid-template-columns: 59% 41%;
     padding-left: 1%;
     padding-right: 1%;
-}
-#Ipart2>div>div
-{
-    /* border: 1px solid green; */
-    /* padding-left: 2%; */
 }
 #Ipart201
 {
@@ -129,7 +116,6 @@
 {
     padding-right:10px ;
     padding-top: 1%;
-    /* border: 1px solid salmon; */
 }
 #Ipart201>div:first-child>h2
 {
@@ -211,11 +197,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5%;
-    /* border: 1px solid darkred; */
-}
-#Ipart3b>div
-{
-    /* border: 1px solid hotpink;    */
 }
 #Ipart3b>div:first-child
 {
@@ -224,10 +205,6 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(4, 1fr);
     gap: 4%;
-}
-#Ipart3b>div:first-child>div
-{
-    /* border: 1px solid lightgreen; */
 }
 
 #Ipart3b>div:first-child>div>div
@@ -278,7 +255,6 @@
 }
 #Ipart3c>div
 {
-    /* border: 1px solid red; */
     display: grid;
     width: 90%;
     margin: auto;
@@ -378,7 +354,6 @@
 {
     width: 80%;
     margin: auto;
-    /* border: 1px solid green; */
 }
 #Ipart4>div:last-child>div
 {
@@ -433,7 +408,6 @@
 {
     width: 100%;
     height: 950px;
-    /* border: 1px solid rebeccapurple; */
     display: flex;
 }
 #Ipart5>div
@@ -441,7 +415,6 @@
     width: 94%;
     margin: auto;
     height: 89%;
-    /* border: 1px solid rgb(13, 186, 230); */
 }
 #Ipart5>div:first-child
 {
@@ -505,7 +478,6 @@
 {
     width: 100%;
     height: 430px;
-    /* border: 1px solid goldenrod; */
     background-color: #F3F3F4;
     padding-top: 4%;
 }
@@ -515,7 +487,6 @@
     width: 94%;
     margin: auto;
     height: 85%;
-    /* border: 1px solid orangered; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -533,7 +504,6 @@
     height: 65%;
     align-items: center;
     padding: 2%;
-    /* border:1px solid red; */
 }
 #Ipart6>div>div>p
 {
@@ -562,12 +532,10 @@
 {
     width: 96%;
     height: 730px;
-    /* border: 1px solid green; */
-    padding: 4% 2% 4% 2%;
+    padding: 4% 2% 5% 2%;
 }
 #Ipart7>div
 {
-    /* border: 1px solid purple; */
     height: 100%;
     width: 100%;
     display: grid;
@@ -577,6 +545,7 @@
 #Ipart7>div>div:first-child
 {
     width: 75%;
+    
     margin: auto;
     text-align: center;
 }
@@ -586,7 +555,6 @@
 }
 #Ipart7>div>div:last-child
 {
-    /* border: 1px solid greenyellow; */
     width: 95%;
     margin: auto;
     display: grid;
@@ -597,7 +565,6 @@
 }
 #Ipart7>div>div:last-child>div
 {
-    /* border: 1px solid seagreen; */
     height: 100%;
     padding-left: 4%;
 }
@@ -630,7 +597,6 @@
 #Ipart7b>div>div>div>div
 {
     display: flex;
-    /* margin-bottom: 2%; */
     color: #333C43;
     align-items: center;
 }
@@ -638,7 +604,6 @@
 {
     width: 9%;
     margin-right: 2%;
-    margin-bottom: 1%;
 }
 #Ipart7b>div>div>div>div:last-child
 {
@@ -666,7 +631,6 @@
 {
     width: 100%;
     height: 430px;
-    /* border:1px solid sandybrown; */
     padding-bottom: 5%;
     box-shadow: rgba(77, 77, 77, 0.2) 0px 7px 29px 0px;
 }
@@ -674,7 +638,6 @@
 {
     width: 75%;
     margin: auto;
-    /* border: 1px solid blue; */
     height: 100%;
     display: grid;
     grid-template-columns: 100%;

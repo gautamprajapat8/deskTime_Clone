@@ -1,0 +1,108 @@
+
+  #LogInMain {
+    width: 550px;
+    height: 780px;
+    float: auto;
+    margin: auto;
+  
+    padding-top: 100px;
+  }
+  #LogInLogo {
+    height: 180px;
+    text-align: center;
+  }
+  #LogInLogo > img {
+    width: 90px;
+    height: 90px;
+  }
+  #LoginHere {
+    width: 400px;
+    height: 350px;
+    border: 0px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.122),
+      0 6px 20px 0 rgba(0, 0, 0, 0.136);
+    text-align: center;
+    margin: auto;
+    border-radius: 2px;
+    padding-top: 10px;
+  }
+  #LoginHere > input {
+    height: 50px;
+    width: 370px;
+    text-align: left;
+    margin: 10px;
+    padding-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.395);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.027),
+      0 6px 20px 0 rgba(0, 0, 0, 0.088);
+    border-radius: 4px;
+  }
+  #LoginHere > button {
+    height: 50px;
+    width: 370px;
+    text-align: center;
+    margin: 10px;
+    background-color: #5fb92a;
+    color: white;
+    border: 1px solid #5fb92a;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+  #spanGreen {
+    color: #5fb92a;
+    font-weight: bold;
+  }
+  #ConnectWith {
+    max-width: 400px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    float: auto;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.061),
+      0 6px 20px 0 rgba(0, 0, 0, 0.088);
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  #ConnectWith > div > div {
+    width: 85px;
+    height: 40px;
+    text-align: center;
+  
+    float: left;
+  
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #ConnectWith > div > div:nth-child(1) {
+    background-image: url(https://desktime.com/assets/img/icons/facebook_v2.svg);
+  }
+  #ConnectWith > div > div:nth-child(2) {
+    background-image: url(https://desktime.com/assets/img/icons/twitter_v2.svg);
+  }
+  #ConnectWith > div > div:nth-child(3) {
+    background-image: url(https://desktime.com/assets/img/icons/linkedin_v2.svg);
+  }
+  #ConnectWith > div > div:nth-child(4) {
+    background-image: url(https://desktime.com/assets/img/icons/google_v2.svg);
+  }
+  #loginH1font {
+    font-size: 30px;
+    color: gray;
+  }
+  #ForgetpassFont
+  {
+    font-size: 15px;
+    color: gray;
+  }
+  #loginFont
+  {
+    font-size: 15px;
+    color: gray;
+    margin-left: unset;
+  }
+
+#button:hover
+{
+    cursor: pointer;
+}

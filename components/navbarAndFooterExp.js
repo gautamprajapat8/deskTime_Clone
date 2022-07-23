@@ -9,10 +9,11 @@ let navbar=()=>{
                 <a href="pricing.html" id="pricing">Pricing</a>
                 <a href="about_us.html" id="about_us">About Us</a>
                 <a href="faq.html" id="faq">FAQ</a>
+                
                 <a href="blog.html" id="blog">Blog</a>
 
             </div>
-            <div>
+            <div id="showName">
                 <a href="log_in.html">LOGIN</a>
                 <a href="sign_up.html">SIGN UP</a>
             </div>
