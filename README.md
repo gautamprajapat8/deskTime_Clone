@@ -14,7 +14,10 @@ Our project is about developing the clone of the "Desktime.com". DeskTime is a t
 
 ### Technology used :
 
-HTML, CSS and Javascript are used to accomplish the project. Little bit of DOM is also used to make it interactive.
+- HTML
+- CSS 
+- Javascript
+- ES6
 
 ### Launch :
 
@@ -36,6 +39,12 @@ Clone the project
 ```bash
   git clone https://github.com/gautamprajapat8/quirky-eyes-4143
 ```
+Live the project
+
+```bash
+  https://gautamprajapat8.github.io/quirky-eyes-4143/
+```
+
 
 ### Purpose :
 
